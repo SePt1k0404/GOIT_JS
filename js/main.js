@@ -366,6 +366,27 @@
 // }
 // console.log('result:', result);
 
+
+// const langs = ['python', 'javascript', 'c++', 'haskel', 'php', 'ruby'];
+// const result = [];
+
+// console.log('start', langs);
+
+// for (let i = 0; i < langs.length; i += 1){
+//     let max = langs[i];
+//     for (let j = 0; j < langs.length; j += 1){
+//         if (max > langs[j] && !result.includes(langs[j])) {
+//             max = langs[j];
+//             i = -1;
+//         }
+//     }
+//     if (!result.includes(max)) {
+//         result.push(max);
+//     }
+// }
+// console.log('start', langs);
+// console.log('result', result);
+
 // Example 8 - Пошук елемента
 // Напиши скрипт пошуку найменшого числа у масиві. Код повинен працювати для будь-якого масиву чисел. Використовуй цикл для розв'язання задачі.
 
@@ -407,4 +428,16 @@
 //     }
 // }
 // console.log("min: ", min, "max: ", max);
+//___________________/Модуль 3__________________//
+
+
+//___________________Модуль 4__________________//
+
+
+const arr = [[1, 2], true, 'string'];
+
+console.log(result);
+console.log(arr);
+
+
 //___________________/Модуль 3__________________//
